@@ -9,7 +9,7 @@
 
 
 # superproject
-super_project_path='/data/apps'
+# super_project_path='/data/apps'
 
 # app
 app_domain=$1 #'daibanshenqi.com'
@@ -33,6 +33,7 @@ function nginx_config_deplay(){
 }
 
 function nginx_reload(){
+	mkdir -p /data/logs/www.ttlearning.com.cn/
 	/etc/init.d/nginx reload
 }
 

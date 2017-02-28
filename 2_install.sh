@@ -76,7 +76,7 @@ nodejs_modules_install(){
 	# 国内适合cnpm
 	npm i cnpm -g
 	# yarn 安装
-	npm i -g yarn
+	cnpm i -g yarn
 	# pm2 管理安装
 	cnpm i pm2 -g
 	# 版本切换

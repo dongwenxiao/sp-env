@@ -33,7 +33,7 @@ function nginx_config_deplay(){
 }
 
 function nginx_reload(){
-	mkdir -p /data/logs/www.ttlearning.com.cn/
+	mkdir -p /data/logs/${app_domain}/
 	/etc/init.d/nginx reload
 }
 

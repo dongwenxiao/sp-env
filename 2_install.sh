@@ -105,6 +105,7 @@ mongodb_install(){
 	ln -s $install_path/mongodb/bin/mongo /usr/bin/mongo
 	ln -s $install_path/mongodb/bin/mongod /usr/bin/mongod
 	ln -s $install_path/mongodb/bin/mongodump /usr/bin/mongodump
+	ln -s $install_path/mongodb/bin/mongorestore /usr/bin/mongorestore
 
 }
 
